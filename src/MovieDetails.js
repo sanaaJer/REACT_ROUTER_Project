@@ -21,7 +21,7 @@ export default function MovieDetails() {
      <h2 id='titleH'>{movieClicked.title}</h2>
      <p id='descriptParag'>{movieClicked.description}</p>
      <div>
-     <iframe width="560" height="315" 
+     <iframe width="560" height="315" title='trailer video'
           src={movieClicked.trailerURL}
           frameborder="0" allowfullscreen>
       </iframe>

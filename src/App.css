@@ -6,7 +6,9 @@ input:focus{
   outline: none;
   border:solid #FFB200 3px;
 }
-
+a {
+  text-decoration: none; /* Remove the underline */
+}
 input[type='submit']{
   color:black;
   background-color: #FFB200;
