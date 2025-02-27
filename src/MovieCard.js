@@ -21,7 +21,7 @@ export default function MovieCard({title,description,posterURL,rating}) {
     </Card.Body>
      {/* rating section */}
     <div style={ratingStyle}>
-       <i class="bi bi-star-fill"></i><span> {rating}</span>
+       <i className="bi bi-star-fill"></i><span> {rating}</span>
     </div>
   </Card>
   )

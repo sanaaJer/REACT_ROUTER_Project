@@ -70,6 +70,43 @@ form{
   color: #61dafb;
 }
 
+/* Moviedetails compoennet style */
+.sectionDetails{
+  background-color: #181C14;
+  color: white;
+ padding-left: 2em;
+ padding-right: 2em;
+ height: 100vh;
+}
+.backhome{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 2em;
+  font-weight: 500;
+}
+button i{
+  color:white;
+  margin:0 1em 0 0;
+}
+
+#descriptParag{
+  margin-top:10px;
+  font-size: 14px;
+}
+#titleH{
+  width: fit-content;
+  margin-top: 3em;
+  font-weight: 800;
+ text-transform: uppercase;
+ margin-bottom: 0;
+ border-bottom: #FFB200 solid 2px;
+}
+iframe{
+  margin-top: 1em;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
